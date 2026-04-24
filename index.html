@@ -1,0 +1,764 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>My Modern Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="homePage">
+        <nav class="navbar">
+            <div class="logo-container">
+               <img src="https://cdn-icons-png.flaticon.com/512/7164/7164309.png" alt="Logo">
+               <span class="site-name">PrimeVest</span>
+          </div>
+        
+            <ul class="nav-links">
+                <li><a href="#homePage">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#" id="navLogin">Contact</a></li>
+            </ul>
+
+            <div class="menu-toggle1"><i class="fa-solid fa-user"></i></div>
+            <div class="menu-toggle">=</div>
+
+        </nav>
+
+        <div class="login-container" id="loginBox">
+            <form class="login-form-main" id="loginForm">
+                <span class="close-btn" id="closeLogin">&times;</span>
+                
+                <h2>Create Account</h2>
+
+                <div class="login-form">
+                    <div class="form-group">
+                        <label for="fname">Full name</label>
+                        <input type="text" name="fname" placeholder="Enter your name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="Enter your email">
+                        <span id="emailError" class="error"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone number">Phone number</label>
+                        <input type="text" placeholder="enter your phone">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password"  id="password" placeholder="enter password">
+                        <span id="passwordError" class="error"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password"> Confirm Password</label>
+                        <input type="password"  id="password" placeholder="confirm password">
+                    </div>
+                </div>
+
+                <button type="submit" class="">Sign up</button>
+
+            </form>
+
+        </div>
+
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Invest in the future of Finance</h1>
+                <h2>Start your journey today and watch your digital assests mutiply with our advanced investment strategies.</h2>
+                <button class="btn" id="openLogin">SIGN UP</button>
+        
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" alt="Crypto Investment" style="width:100%; max-height:400px; object-fit:cover; border-radius:8px; margin:20px 0;">
+            </div>
+        </section>
+
+       <section class="features" id="features">
+           <div class="cards">
+                <h3>Why choose <span class="red">PrimeVest</span></h3>
+                <p>Our goal is to get our investors with a reliable source of high income , while minimazing any possible risk and offering of high-quality service </p>
+                <div class="card">
+                    <i class="fa-regular fa-building"></i>
+                    <h3>Legal Comapany</h3>
+                    <p> our company conducts absolutely legal activties on the legal field. we are certified to operate invesment business , we are legal and safe </p>
+                </div>
+
+               <div class="card">
+                    <i class="fa-solid fa-money-bill-trend-up"></i>
+                    <h3>Quick withdrawal</h3>
+                    <p>Our platform allows for quick and seamless transactions with minimal delays.</p>
+               </div>
+
+               <div class="card">
+                   <i class="fa-solid fa-arrows-down-to-people"></i>
+                   <h3>Referral Program</h3>
+                   <p>We are offering a certain percentage of referral bonuses for every successful referral. you can increase your income by simply refer a few people</p>
+               </div>
+
+               <div class="card">
+                  <i class="fa-solid fa-headset"></i>
+                  <h3>24/7 Support</h3>
+                  <p> We provide 24/7 support to ensure you always have assistance when you need it. Our dedicated support team is available around the clock to assist you with any questions or concerns. </p>
+               </div>
+
+               <div class="card">
+                    <i class="fa-solid fa-handshake"></i>
+                    <h3>DDOS Protection</h3>
+                    <p>Our platform is equipped with advanced DDOS protection measures to ensure the safety and stability of your investments.</p>
+               </div>
+
+                <div class="card">
+                  <i class="fa-solid fa-bolt"></i>
+                  <h3>Fast</h3>
+                  <p>Our site is designed to be fast and efficient, ensuring smooth performance.</p>
+                </div>
+
+                <div class="card">
+                  <i class="fa-solid fa-shield-halved"></i>
+                  <h3>Reliable</h3>
+                  <p>Our site is designed to be reliable and trustworthy with 99.9% uptime.</p>
+                </div>
+
+                <div class="card">
+                 <i class="fa-solid fa-face-smile"></i>
+                 <h3>User-Friendly</h3>
+                 <p>Designed to be user-friendly and easy to navigate for everyone.</p>
+                </div>
+
+            </div>
+        </section>
+        
+        <section class="investments" id="investments">
+            <div class="investment-plan">
+                <div class="plan">
+                  <h2>Investment <span class="blue">Plans</span></h2>
+                  <P> To make a solid investment, we offer various plans tailored to your financial goals. find a plan which is best for you</P>
+                </div>
+
+                <div class="plans">
+                    <h3>GOLD PLAN</h3>
+                    <p>Return 35%</p>
+                    <P>Every Day</P>
+                    <p>For lifetime</p>
+                    <p> Lifetime Earning</p>
+                    <p>$10000-$1000000</p>
+                    <button class="btn">invest now</button>
+                </div>
+                
+                <div class="plans">
+                    <h3>ADVANCED PLAN</h3>
+                    <p>Return 25%</p>
+                    <P>Every two Days</P>
+                    <p>For lifetime</p>
+                    <p> Lifetime Earning</p>
+                    <p>$50000-$9999</p>
+                    <button class="btn">invest now</button>
+                </div>
+
+                <div class="plans">
+                    <h3>BASIC PLAN</h3>
+                    <p>Return 15%</p>
+                    <P>Every Two Days</P>
+                    <p>For lifetime</p>
+                    <p> Lifetime Earning</p>
+                    <p>$800-$4999</p>
+                    <button class="btn">invest now</button>
+                </div>
+        
+                <div class="plans">
+                    <h3>STARTER PLAN</h3>
+                    <p>Return 7%</p>
+                    <P>Every Day</P>
+                    <p>For lifetime</p>
+                    <p> Lifetime Earning</p>
+                    <p>$50-$799</p>
+                    <button class="btn">invest now</button>
+                </div>
+
+            </div>
+
+        </section>
+
+
+       <section class="stats">
+           <div class="stats-container">
+                <div class="stat-box">
+                    <img src="https://cdn-icons-png.flaticon.com/128/17446/17446833.png" alt="Users">
+                    <h3>1500+</h3>
+                    <p>Active Investors</p>
+                </div>
+                 
+                <div class="stat-box">
+                    <img src="https://cdn-icons-png.flaticon.com/128/2953/2953362.png" alt="money">
+                    <h3>$500,000+</h3>
+                    <p>Total Invested</p>
+                </div>
+
+                <div class="stat-box">
+                    <img src="https://cdn-icons-png.flaticon.com/128/18289/18289920.png" alt="withdraw">
+                    <h3>24/7</h3>
+                    <p>Fast Withdrawals</p>
+                </div>
+
+                <div class="stat-box">
+                    <img src="https://cdn-icons-png.flaticon.com/128/6865/6865349.png" alt="secure">
+                    <h3>100%</h3>
+                    <p>Secure Platform</p>
+                </div>
+            </div>
+       </section>
+       
+       <section class="how-it-works">
+            <h2>How It Works</h2>
+            <div class="steps-container">
+                <div class="step">
+                    <img src="https://cdn-icons-png.flaticon.com/128/11695/11695931.png" alt="Register">
+                     <h3>1.Create Account</h3>
+                     <p>Register for free and verify your details</p>
+                </div>
+
+                <div class="step">
+                    <img src="https://cdn-icons-png.flaticon.com/128/2721/2721121.png" alt="deposit">
+                    <h3>2. Make Deposit</h3>
+                    <p>Choose your preferred investment plan and make a deposit , fund your account using USDT or any Crypto of choice</p>
+                </div>
+
+                <div class="step">
+                    <img src="https://cdn-icons-png.flaticon.com/128/12015/12015227.png" alt="earn">
+                    <h3>3.Start Earning</h3>
+                    <p>Your investment will start generating returns and profit daily</p>
+                </div>
+                  
+                <div class="step">
+                    <img src="https://cdn-icons-png.flaticon.com/128/9652/9652666.png" alt="withdraw">
+                    <h3>4. Withdraw Profit</h3>
+                    <p>Withdraw your earnings anytime you want </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="payments">
+            <p>Accepted Payment Methods</p>
+            <div class="payment-icons">
+                <img src="https://cdn-icons-png.flaticon.com/128/5968/5968260.png" alt="Bitcoin">
+                <img src="https://cdn-icons-png.flaticon.com/128/12379/12379283.png" alt="Ethereum">
+                <img src="https://cdn-icons-png.flaticon.com/128/14446/14446252.png" alt="Tether USDT">
+                <img src="https://cdn-icons-png.flaticon.com/128/14446/14446125.png" alt="BNB">
+                <img src="https://cdn-icons-png.flaticon.com/128/14446/14446284.png" alt="USDC">
+                <img src="https://cdn-icons-png.flaticon.com/128/12114/12114250.png" alt="TRON">
+             </div>
+        </section>
+
+        <section class="about" id="about">
+           <div class="about-container">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="about us">
+                </div>
+
+                <div class="about-text">
+                    <h2>About <span style="color: #00bcd4;">PrimeVest</span></h2>
+                    <p>PrimeVest is a leading investment platform that offers innovative solutions for your financial future. With a focus on security, transparency, and exceptional customer service, we empower investors to achieve their goals and maximize their returns.</p>
+                
+                   <div class="about-features">
+                       <div class="feature-item">
+                          <img src="https://cdn-icons-png.flaticon.com/128/1161/1161388.png" alt="secure">
+                           <div>
+                             <h4>100% Secure</h4>
+                              <p>Your funds are protected with industry-leading security measures.</p>
+                            </div>
+                        </div>  
+                        
+                        <div class="feature-item">
+                            <img src="https://cdn-icons-png.flaticon.com/128/5267/5267862.png" alt="transparent">
+                            <div>
+                                <h4>Easy to Use</h4>
+                                <p>.Simple interface designed for beginners and experienced experts.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <img src="https://cdn-icons-png.flaticon.com/128/5532/5532931.png" alt="Fast">
+                            <div>
+                                <h4>Fast Withdrawals</h4>
+                                <p>Get your profit anytime , quickly and reliably</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#register" class="btn">Start investing now</a>
+                </div>
+            </div>
+        </section>
+
+       <footer>
+          <p>&copy; 2026 My Site | Built with HTML, CSS, and JavaScript</p>
+        </footer>
+    </div>
+    <script>
+        const openBtn = document.getElementById("openLogin");
+        const loginBox = document.getElementById("loginBox");
+        const closeBtn = document.getElementById("closeLogin");
+        const toggel = document.querySelector(".menu-toggle");
+        const navlinks = document.querySelector(".nav-links");
+        const form = document.getElementById("loginForm");
+        const messages = [
+            "Login succesful! let's make money 💰",
+            "Access granted time to invest 🚀",
+            "success enjoy your stay",
+        ]
+
+      document.querySelector('.btn').addEventListener('click', function(){
+         document.getElementById('loginBox').style.display = 'flex';
+         document.body.style.visibility= 'hidden';
+         document.getElementById('loginBox').style.visibility = 'visible'
+         document.body.style.overflow = 'hidden';
+      })
+
+      document.getElementById('closeLogin').addEventListener('click', function(){
+        document.getElementById('loginBox').style.display = 'none';
+        document.body.style.visibility = 'visible'
+      });
+
+      let formy = document.getElementById('loginForm');
+
+        form.addEventListener("submit", function (e) {
+            e.preventDefault();
+            let email = document.getElementById("email");
+            let password = document.getElementById("password");
+            let emailError = document.getElementById("emailError");
+            let passwordError = document.getElementById("passwordError");
+            let valid = true;
+            emailError.textContent = "";
+            passwordError.textContent = "";
+            
+            if (email.value === "") {
+                emailError.textContent = "Email is required";
+                valid = false;
+            }
+            if (password.value === "") {
+                passwordError.textContent = "Password is required";
+                valid = false;
+            }
+            if(valid) {
+                let randomIndex = Math.floor(Math.random() * messages.length);
+                let randomMesage = messages[randomIndex];
+                alert(randomMesage);
+            }
+             
+        });
+    </script>
+</body>
+</html> -->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USARent - Professional Platform</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0066FF',
+                        secondary: '#0047AB',
+                    },
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background: linear-gradient(rgba(15, 23, 43, 0.92), rgba(15, 23, 43, 0.92)), 
+                        url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=80');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            min-height: 100vh;
+        }
+        
+        .glass {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+        }
+
+        .card {
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0, 102, 255, 0.15);
+        }
+
+        .star {
+            color: #FFB800;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.7);
+            z-index: 9999;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .modal-box {
+            animation: pop 0.3s ease;
+        }
+
+        @keyframes pop {
+            from { transform: scale(0.9); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+    </style>
+</head>
+<body class="font-sans">
+
+    <!-- NAVBAR -->
+    <nav class="glass sticky top-0 z-50 shadow-md">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center gap-2">
+                    <div class="bg-primary text-white p-2 rounded-lg">
+                        <i class="fas fa-home text-xl"></i>
+                    </div>
+                    <h1 class="text-2xl font-bold text-gray-900">USARent<span class="text-primary">.</span></h1>
+                </div>
+                
+                <div id="navMenu" class="hidden md:flex items-center gap-4">
+                    <a href="#" class="font-medium text-gray-600">Buy</a>
+                    <a href="#" class="font-bold text-primary">Rent</a>
+                    <a href="#" class="font-medium text-gray-600">Sell</a>
+                </div>
+
+                <div id="authArea">
+                    <button onclick="openLogin()" class="bg-primary text-white px-6 py-3 rounded-full font-medium shadow-md hover:bg-secondary">
+                        <i class="fas fa-user mr-2"></i> Sign In
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <div id="heroArea" class="py-20">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-5xl md:text-6xl font-bold text-white mb-4">
+                Find Your Dream <span class="text-primary">Home</span>
+            </h2>
+            <p class="text-gray-300 text-lg mb-10">Sign in to search properties, view prices, and pay securely.</p>
+
+            <div class="glass p-4 rounded-2xl shadow-2xl flex max-w-2xl mx-auto">
+                <div class="flex-1 flex items-center pl-4 border-r border-gray-200">
+                    <i class="fas fa-search text-gray-400 mr-3"></i>
+                    <input id="globalSearch" type="text" placeholder="Search city, address or ZIP..." 
+                           class="w-full py-3 focus:outline-none bg-transparent" onkeyup="searchNow()">
+                </div>
+                <button onclick="checkBeforeSearch()" class="bg-primary text-white px-8 py-3 rounded-xl font-semibold ml-2">
+                    Search
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="mainApp" class="hidden max-w-7xl mx-auto px-4 pb-20">
+        
+        <div class="bg-gradient-to-r from-blue-600 to-blue-800 rounded-3xl p-8 mb-10 text-white">
+            <h2 class="text-3xl font-bold mb-2">Welcome, <span id="displayName">User</span>!</h2>
+            <p class="text-blue-100">Showing available houses in <span id="displayLocation" class="font-bold underline">Your Area</span></p>
+        </div>
+
+        <div class="glass rounded-2xl p-6 mb-10">
+            <h3 class="text-xl font-bold text-gray-800 mb-4">Find Properties</h3>
+            <input type="text" id="localSearch" placeholder="Search city, address or ZIP..." 
+                   class="w-full p-4 border border-gray-200 rounded-xl mb-4" onkeyup="searchNow()">
+            
+            <div class="flex gap-3 flex-wrap">
+                <button class="px-5 py-2 bg-primary text-white rounded-full" onclick="filterAll()">All Prices</button>
+                <button class="px-5 py-2 bg-white border border-gray-300 rounded-full" onclick="filterLuxury()">$50,000+</button>
+                <button class="px-5 py-2 bg-white border border-gray-300 rounded-full" onclick="filterNormal()">$2k - $5k</button>
+                <button class="px-5 py-2 bg-white border border-gray-300 rounded-full" onclick="filterBudget()">Below $2k</button>
+            </div>
+        </div>
+
+        <h3 class="text-2xl font-bold text-white mb-6">Available Listings</h3>
+        <div id="propertiesGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            <!-- Houses will load here by JavaScript -->
+        </div>
+    </div>
+
+    <!-- LOGIN MODAL -->
+    <div id="loginModal" class="modal">
+        <div class="modal-box bg-white rounded-3xl p-8 m-4 max-w-md w-full">
+            <h2 class="text-3xl font-bold text-center mb-6">Sign In</h2>
+            <input type="text" id="userName" placeholder="Full Name" class="w-full p-4 border rounded-xl mb-4">
+            <input type="email" placeholder="Email Address" class="w-full p-4 border rounded-xl mb-4">
+            <input type="password" placeholder="Password" class="w-full p-4 border rounded-xl mb-6">
+            
+            <label class="block font-medium mb-2">Where are you looking?</label>
+            <select id="userLocation" class="w-full p-4 border rounded-xl mb-6">
+                <option>Los Angeles, CA</option>
+                <option>New York, NY</option>
+                <option>Miami, FL</option>
+                <option>Austin, TX</option>
+                <option>Chicago, IL</option>
+                <option>Las Vegas, NV</option>
+            </select>
+            <button onclick="loginUser()" class="w-full bg-primary text-white py-4 rounded-xl font-bold text-lg">ENTER SYSTEM</button>
+        </div>
+    </div>
+
+    <!-- PAYMENT MODAL -->
+    <div id="paymentModal" class="modal">
+        <div class="modal-box bg-white rounded-3xl p-8 m-4 max-w-md w-full">
+            <h2 class="text-3xl font-bold mb-2">Secure Payment</h2>
+            <p class="text-gray-600 mb-6">Paying for: <span id="payProperty" class="font-bold"></span></p>
+            <div class="bg-green-50 border border-green-200 rounded-xl p-4 mb-6">
+                <p class="text-lg font-bold">Total Amount: $<span id="payAmount"></span></p>
+            </div>
+            <h3 class="font-bold mb-3">Select Payment Method</h3>
+            <div class="grid grid-cols-3 gap-4 mb-6">
+                <div class="border p-4 rounded-xl text-center cursor-pointer hover:border-primary">
+                    <i class="fab fa-cc-visa text-3xl"></i><p class="text-sm">Credit Card</p>
+                </div>
+                <div class="border p-4 rounded-xl text-center cursor-pointer hover:border-primary">
+                    <i class="fab fa-paypal text-3xl text-blue-500"></i><p class="text-sm">PayPal</p>
+                </div>
+                <div class="border p-4 rounded-xl text-center cursor-pointer hover:border-primary">
+                    <i class="fab fa-bitcoin text-3xl text-yellow-500"></i><p class="text-sm">Crypto / USDT</p>
+                </div>
+            </div>
+            <input type="text" placeholder="Card Number" class="w-full p-4 border rounded-xl mb-4">
+            <div class="flex gap-4 mb-6">
+                <input type="text" placeholder="MM/YY" class="w-1/2 p-4 border rounded-xl">
+                <input type="text" placeholder="CVV" class="w-1/2 p-4 border rounded-xl">
+            </div>
+            <button onclick="makePayment()" class="w-full bg-green-600 text-white py-4 rounded-xl font-bold text-lg">PAY NOW</button>
+        </div>
+    </div>
+
+    <!-- ================================================= -->
+    <!-- JAVASCRIPT WILL BE PLACED HERE (PART 2 BELOW) -->
+    <script>
+        // --- HOUSE DATABASE WITH MANY LOCATIONS ---
+const houses = [
+    // CALIFORNIA
+    { name: "Bel Air Mega Mansion", price: 50000, city: "Los Angeles", state: "CA", type: "high", beds: 8, baths: 10, review: 152 },
+    { name: "Hollywood Luxury Villa", price: 8500, city: "Los Angeles", state: "CA", type: "high", beds: 5, baths: 6, review: 98 },
+    { name: "Beverly Hills Modern House", price: 4200, city: "Beverly Hills", state: "CA", type: "mid", beds: 4, baths: 3, review: 75 },
+    { name: "San Francisco Downtown Loft", price: 3800, city: "San Francisco", state: "CA", type: "mid", beds: 2, baths: 2, review: 45 },
+
+    // FLORIDA
+    { name: "Miami Beach Ocean View", price: 5500, city: "Miami Beach", state: "FL", type: "mid", beds: 3, baths: 4, review: 120 },
+    { name: "Orlando Family Home", price: 1950, city: "Orlando", state: "FL", type: "mid", beds: 4, baths: 2, review: 62 },
+    { name: "Tampa Waterfront House", price: 2800, city: "Tampa", state: "FL", type: "mid", beds: 3, baths: 2, review: 34 },
+
+    // NEW YORK
+    { name: "Manhattan Skyline Penthouse", price: 15000, city: "New York", state: "NY", type: "high", beds: 4, baths: 5, review: 210 },
+    { name: "Brooklyn Luxury Apartment", price: 3200, city: "Brooklyn", state: "NY", type: "mid", beds: 2, baths: 1, review: 56 },
+    { name: "Queens Cozy Duplex", price: 2100, city: "Queens", state: "NY", type: "mid", beds: 3, baths: 1, review: 28 },
+
+    // TEXAS
+    { name: "Austin Smart Home", price: 2450, city: "Austin", state: "TX", type: "mid", beds: 3, baths: 2, review: 89 },
+    { name: "Dallas Spacious Villa", price: 3100, city: "Dallas", state: "TX", type: "mid", beds: 4, baths: 3, review: 41 },
+    { name: "Houston Industrial Loft", price: 1800, city: "Houston", state: "TX", type: "mid", beds: 2, baths: 2, review: 33 },
+
+    // ILLINOIS
+    { name: "Chicago Lakefront Tower", price: 3500, city: "Chicago", state: "IL", type: "mid", beds: 2, baths: 2, review: 67 },
+    { name: "Naperville Family House", price: 2200, city: "Chicago", state: "IL", type: "mid", beds: 4, baths: 2, review: 29 },
+
+    // NEVADA
+    { name: "Las Vegas Strip View Suite", price: 4800, city: "Las Vegas", state: "NV", type: "mid", beds: 3, baths: 3, review: 145 },
+    { name: "Reno Mountain Cottage", price: 1500, city: "Reno", state: "NV", type: "budget", beds: 2, baths: 1, review: 18 }
+];
+
+// --- IMAGE LINKS (FIXED & WORKING) ---
+const images = [
+    "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=600&q=80",
+    "https://images.unsplash.com/photo-1560448061469-79adf8013c15?w=600&q=80",
+    "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=600&q=80",
+    "https://images.unsplash.com/photo-1564013799919-ab600029ff6f?w=600&q=80",
+    "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=600&q=80",
+    "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=600&q=80"
+];
+
+// --- LOAD HOUSES TO PAGE ---
+function loadHouses(filterCity = "All") {
+    const grid = document.getElementById('propertiesGrid');
+    grid.innerHTML = "";
+
+    houses.forEach((house, index) => {
+        // Create stars rating
+        let stars = "";
+        let rating = Math.floor(Math.random() * 2) + 4; // 4 or 5 stars
+        for(let i=0; i<5; i++){
+            if(i < rating) stars += '<i class="fas fa-star star"></i>';
+            else stars += '<i class="far fa-star star"></i>';
+        }
+
+        // Price Tag Label
+        let priceLabel = house.type === "high" 
+            ? '<span class="absolute top-4 left-4 bg-yellow-500 text-black px-3 py-1 rounded-full text-xs font-bold">PREMIUM $50k+</span>' 
+            : '<span class="absolute top-4 left-4 bg-primary text-white px-3 py-1 rounded-full text-xs font-bold">FOR RENT</span>';
+
+        // Get working image
+        let imgUrl = images[index % images.length];
+
+        // Create Card HTML
+        const card = `
+        <div class="card bg-white rounded-2xl overflow-hidden shadow-xl" data-price="${house.type}" data-city="${house.city}">
+            <div class="h-56 overflow-hidden relative">
+                <img src="${imgUrl}" class="w-full h-full object-cover">
+                ${priceLabel}
+            </div>
+            <div class="p-6">
+                <h3 class="text-3xl font-black text-gray-900">$${house.price.toLocaleString()} <span class="text-sm text-gray-500">/mo</span></h3>
+                <div class="flex items-center text-gray-500 text-sm my-2">
+                    <span>${house.beds} Beds</span> &nbsp;•&nbsp; <span>${house.baths} Baths</span>
+                </div>
+                <p class="text-gray-600 font-medium mb-2"><i class="fas fa-map-marker-alt text-primary"></i> ${house.city}, ${house.state}</p>
+                
+                <div class="flex items-center mb-4">
+                    ${stars}
+                    <span class="ml-2 text-sm text-gray-600">(${house.review} Reviews)</span>
+                </div>
+
+                <button onclick="openPayment('${house.name}', ${house.price})" class="w-full bg-primary text-white py-3 rounded-xl font-bold">RENT NOW</button>
+            </div>
+        </div>`;
+        
+        // Show only if matches location filter
+        if(filterCity === "All" || house.city.includes(filterCity) || house.state.includes(filterCity)){
+            grid.innerHTML += card;
+        }
+    });
+}
+
+// --- SEARCH FUNCTION ---
+function searchNow() {
+    const input = document.getElementById('localSearch') || document.getElementById('globalSearch');
+    const filter = input.value.toUpperCase();
+    const cards = document.querySelectorAll('.card');
+
+    cards.forEach(card => {
+        const city = card.getAttribute('data-city').toUpperCase();
+        if (city.indexOf(filter) > -1 || filter === "") {
+            card.style.display = "";
+        } else {
+            card.style.display = "none";
+        }
+    });
+}
+
+// --- FILTER BUTTONS ---
+function filterAll() {
+    document.querySelectorAll('.card').forEach(c => c.style.display = 'block');
+}
+function filterLuxury() {
+    document.querySelectorAll('.card').forEach(c => {
+        c.getAttribute('data-price') === 'high' ? c.style.display = 'block' : c.style.display = 'none';
+    });
+}
+function filterNormal() {
+    document.querySelectorAll('.card').forEach(c => {
+        c.getAttribute('data-price') === 'mid' ? c.style.display = 'block' : c.style.display = 'none';
+    });
+}
+function filterBudget() {
+    document.querySelectorAll('.card').forEach(c => {
+        c.getAttribute('data-price') === 'budget' ? c.style.display = 'block' : c.style.display = 'none';
+    });
+}
+
+// --- LOGIN SYSTEM ---
+function openLogin() {
+    document.getElementById('loginModal').style.display = 'flex';
+}
+
+function loginUser() {
+    const name = document.getElementById('userName').value || "Client";
+    const location = document.getElementById('userLocation').value;
+    
+    document.getElementById('loginModal').style.display = 'none';
+    document.getElementById('heroArea').style.display = 'none';
+    document.getElementById('mainApp').style.display = 'block';
+    
+    document.getElementById('displayName').innerText = name;
+    document.getElementById('displayLocation').innerText = location;
+
+    // Load houses for user city
+    loadHouses(location.split(",")[0]);
+    
+    // Change button to Logout
+    document.getElementById('authArea').innerHTML = '<button onclick="logoutUser()" class="bg-red-500 text-white px-6 py-3 rounded-full font-medium">Logout</button>';
+}
+
+function logoutUser() {
+    document.getElementById('mainApp').style.display = 'none';
+    document.getElementById('heroArea').style.display = 'block';
+    document.getElementById('authArea').innerHTML = '<button onclick="openLogin()" class="bg-primary text-white px-6 py-3 rounded-full font-medium">Sign In</button>';
+}
+
+function checkBeforeSearch() {
+    if(document.getElementById('mainApp').style.display === 'none') {
+        alert("Please Sign In first to search properties!");
+        openLogin();
+    }
+}
+
+// --- PAYMENT SYSTEM ---
+function openPayment(property, amount) {
+    document.getElementById('payProperty').innerText = property;
+    document.getElementById('payAmount').innerText = amount.toLocaleString();
+    document.getElementById('paymentModal').style.display = 'flex';
+}
+
+function makePayment() {
+    alert("✅ PAYMENT SUCCESSFUL!\n\nThank you for your payment.\nYour contract and keys have been sent to your email.");
+    document.getElementById('paymentModal').style.display = 'none';
+}
+
+// Close modal when clicking outside
+window.onclick = function(event) {
+    if(event.target.classList.contains('modal')) {
+        event.target.style.display = 'none';
+    }
+}
+
+// START EVERYTHING
+window.onload = function() {
+    loadHouses("All");
+}
+    </script> 
+    <!-- OR copy the script from below -->
+
+
+</body>
+</html>
